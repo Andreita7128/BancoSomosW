@@ -1,0 +1,177 @@
+@import '../../style.scss';
+
+/*CONFIG GAMIFICACION*/
+.navbar-dark .navbar-nav .nav-link {
+    color: $color_orange1 !important;
+}
+
+.headerLabel {
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+
+    color: $color_accent_white;
+    width: 100%;
+    padding-right: 5%;
+    height: 54px;
+    background-color: #FF8826;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.info_profile {
+    background-color: $color_blue3;
+    margin-top: 5%;
+   
+    border-radius: 10.057px;
+    justify-content: center;
+    
+  }
+  
+
+
+.coin-w{
+    width: 100%;
+}
+
+.proximos-retos{
+    background-color: #FFE2CC;
+    border-radius: 10px;
+    width: 100%;
+    height: 816px;
+    margin-right: 200px !important;
+    
+}
+.btn-reto{
+    background-color: $color_accent_white !important;
+    margin: 5%;
+    width: 90% !important;
+    height: 70px;
+    box-shadow: 0px 2.71245px 9.49356px rgba(0, 0, 0, 0.15);
+    border-radius: 8.77778px !important;
+    
+}
+
+
+.progress-images {
+    display: flex;
+    justify-content: space-between;
+    height: auto !important;
+    margin-top: 10px;
+
+}
+
+.progress-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.progress-image img {
+    width: 50%;
+    
+}
+
+.progress-image span {
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.progress-bar{
+    background-color: $color_blue2 !important;
+    z-index: 1;
+} 
+
+.card-promedio{
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    background-color: $color_accent_white;
+}
+.card-profile{
+    background-color: $color_blue3;
+    margin-top: 5%;
+   
+    border-radius: 10.057px;
+}
+
+.profile-distances{
+    width: 800px;
+}
+
+
+.img-reduce {
+    max-width: 100%;
+    height: auto;
+  }
+.medal-responsive{
+    margin-top: 0%;
+}
+.retos-progress{
+    width: 300px;
+}
+.badge-w{
+    background-color: $color_violet3;
+}
+.level-w{
+    color: $color_blue1;
+}
+.text_w{
+    color: $color_text_disable !important;
+}
+.violet-text{
+    color: $color_violet3;
+}
+.active_win{
+    color: #FF8826;
+}
+.titulitos{
+    font-size: 20px;
+}
+
+  @media (max-width: 800px) {
+    .img-reduce {
+      max-width: 50%; /* Ajusta este valor según tus necesidades */
+    }
+    .profile-distances{
+        width: auto;
+    }
+    .medal-responsive{
+        margin-top: 5%;
+    }
+    .retos-progress{
+        width: 100px;
+    }
+    .titulitos{
+        font-size: 15px !important;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************************/

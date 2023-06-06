@@ -1,0 +1,94 @@
+@import './../Creditos/credito.scss';
+
+
+.image-card {
+    width: 10px !important;
+}
+
+.marginis {
+    margin-left: 175px !important;
+}
+
+section {
+
+    &.portada {
+        margin-top: 3%;
+    
+        margin-bottom: 5%;
+    }
+
+    & .style_better {
+        margin-top: 10%;
+        width: 518px;
+    }
+
+    & h3 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    &.container_text{
+        width: 486px;
+    }
+}
+
+
+@media (max-width: 1250px) {
+
+    .form-control {
+        margin-right: 0 !important;
+        height: 43px;
+        border-radius: 48px 0px 0px 48px;
+    }
+
+    .marginis {
+        margin-left: 50% !important;
+    }
+
+    .desaparecer {
+        display: none;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .img_banner{
+        width: auto;
+        margin-left: 0%;
+    
+    }
+  
+
+.marginis{
+    flex: 0 0 100% !important;
+    margin-left: 0% !important;
+}
+}
+
+.sidebar-container{
+    position: sticky;
+    top: 30px;
+    height: calc(100vh - 20px);
+}
+.dropdown_reactive {
+    margin-left: 0% !important;
+    border-radius: 0px !important;
+}
+@media (max-width: 800px) {
+    #cobertura{
+      display: none;
+    }
+    #beneficios{
+      display: none;
+    }
+    #requisitos{
+      display: none;
+    }
+    #documentos{
+      display: none;
+    }
+
+    #interesa{
+      display: none;
+    }
+}
+  

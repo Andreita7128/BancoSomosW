@@ -1,0 +1,165 @@
+@import '../style.scss';
+
+.img_banner{
+    width: 500px;
+    height: 542px;
+    margin-left: 8%;
+
+}
+.separar-cards{
+    scroll-margin-top: 150px !important;
+  }
+.image-card {
+    width: 10px !important;
+}
+
+.marginis {
+    margin-left: 175px !important;
+}
+
+section {
+
+    &.portada {
+        margin-top: 3%;
+        padding-left: 175px;
+        margin-bottom: 5%;
+    }
+
+    & .style_better {
+        margin-top: 10%;
+        width: 486px;
+    }
+
+    & h3 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    &.container_text{
+        width: 486px;
+    }
+}
+
+
+@media (max-width: 1250px) {
+
+    .form-control {
+        margin-right: 0 !important;
+        
+        height: 43px;
+    
+    }
+
+    .marginis {
+        margin-left: 0px !important;
+    }
+
+    .desaparecer {
+        display: none;
+    }
+    .desaparecer-cards{
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .img_banner{
+        width: auto;
+        margin-left: 0%;
+    
+    }
+
+    section {
+
+        &.portada {
+            margin-top: 3%;
+            padding-left: 0px;
+            margin-bottom: 5%;
+        }
+    
+        & .style_better {
+            margin-top: 10%;
+            width: 486px;
+        }
+    
+        & h3 {
+            font-weight: 500;
+            font-size: 20px;
+        }
+        &.container_text{
+            width: 486px;
+        }
+    }
+    
+
+
+
+
+
+    #tasas{
+        display: none;
+    }
+    .marginis{
+        flex: 0 0 100% !important;
+    }
+}
+
+.sidebar-container {
+    position: sticky;
+    top: 30px;
+    height: calc(100vh - 20px);
+}
+
+.button_toggler {
+    border-radius: 25px;
+}
+
+.dropdown_W {
+    background-color: white;
+    color: $color_blue1;
+
+    & button {
+        color: $color_blue1;
+        width: 100%;
+        margin-bottom: 0px !important;
+    }
+
+}
+.style_card{
+    padding: 0%;
+}
+.dropdown {
+    margin-bottom: 0px !important;
+    color: $color_blue1;
+
+}
+
+.cardmobile {
+    width: 100%;
+}
+
+.dropdown_reactive {
+    margin-left: 0% !important;
+    border-radius: 0px;
+    &:focus {
+        background-color: $color_blue2 !important;
+        color: white;
+    }
+
+    &:active {
+        background-color: $color_blue2 !important;
+    }
+
+}
+.dropdown_form{
+    overflow-y: auto !important;
+    max-height: 250px !important;
+}
+
+.simulacion{
+    color: $color_violet1;
+}
+
+.dropdown-menu.show {
+    display: block;
+    width: auto;
+}
